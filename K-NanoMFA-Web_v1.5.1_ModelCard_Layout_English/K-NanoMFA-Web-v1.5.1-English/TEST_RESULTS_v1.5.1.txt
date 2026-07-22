@@ -1,0 +1,16 @@
+K-NanoMFA v1.5.1 maintenance test results
+
+Scope
+- Corrected text overlap in the top model-selection cards.
+- Preserved the v1.5 scientific core and nanoform module.
+
+Structural checks
+- Added stable grid layout to `.model-card`.
+- Added explicit wrapping for title, summary, and mini-flow badge.
+- Added responsive 3-column, 2-column, and 1-column card layouts.
+- Confirmed `data.js`, `engine.js`, `advanced.js`, `product_inventory.js`, `geography.js`, and `nanoform.js` remain byte-identical to v1.5.
+
+Expected UI outcome
+- No overlap between model title, description, and mini-flow text.
+- No clipping of the model cards across wide and medium widths.
+- Stable stacking of the three cards at narrower widths.
